@@ -3,8 +3,14 @@
 - 메세지를 프로듀스 와 동시에 컨슘하여 큐의 정상작동 여부를 테스트 한다.
 - CMAK 의 consumer Group에 정상적으로 표시되기 위한 데이터를 입출력 한다. 
 
+## 로컬에서 사용 방법
+git clone 
+tomcat server start 
+
+- application.properties에서 브로커 정보만 변경 하면 됨. 
+
 ## Swagger URL 
-http://localhost/swagger-ui.index.html
+http://localhost:8080/swagger-ui.index.html
 
 ## 사용방법
 ### Message Produce
